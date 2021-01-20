@@ -1,0 +1,36 @@
+@import 'colors';
+
+@media screen and (min-width: 768px) {
+    header {
+        padding: 3rem 0;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        transition: .25s;
+    }
+    
+    .sticky {
+        padding: 1rem 0;
+        background: none;
+    }
+
+    .marker {
+        position: absolute;
+        left: 0;
+        bottom: 50px;
+        transition: .5s;
+        height: 4px;
+        width: 0;
+        background: @blanched-almond;
+        border-radius: 4px;
+    }
+    
+    li {
+        display: inline-block;
+        &:not(:last-child) {
+            margin-right: 2rem;
+            margin-bottom: 0;
+        }
+    }
+}

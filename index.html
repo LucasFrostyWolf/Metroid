@@ -7,25 +7,32 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+        <!-- My CSS -->
+        <link rel="stylesheet" href="./css/reset.min.css">
+        <link rel="stylesheet" href="./css/style.min.css">
+
+        <link rel="preload" href="./css/reset.min.css" as="style">
+
         <title>Metroid - FanSite</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="./less/css/reset.min.css">
     </head>
     <body>
         <header>
             <div class="container">
                 <nav>
-                    <div class="header__menu">
-                        <ul>
-                            <li><a href="#home">Home</a></li>
-                            <li><a href="#history">Historia</a></li>
-                            <li><a href="#esteregg">Ester Egg</a></li>
-                            <li><a href="#chronology">Cronologia</a></li>
-                            <li><a href="#Fanarts">Far arts</a></li>
-                        </ul>
-                    </div>
+                    <ul>
+                        <div id="marker" class="marker"></div>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#history">Historia</a></li>
+                        <li><a href="#chronology">Cronologia</a></li>
+                        <li><a href="#easteregg">Easter Egg</a></li>
+                        <li><a href="#Fanarts">Far arts</a></li>
+                    </ul>
                 </nav>
             </div>
         </header>
+
+        <script src="./js/main.js"></script>
     </body>
 </html>

@@ -1,40 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;0,400;1,400;1,500;1,700&family=Josefin+Slab:wght@500;700&family=Teko:wght@300;400;500&display=swap');
+
+@import 'colors';
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Josefin Slab', serif;
+    font-family: 'Teko';
 }
 
+@font_link: 'Teko';
+@font_header: 'Josefin Sans';
+@font_text: 'Josefin Slab';
+
 html, body {
-    background: rgb(0, 210, 210);
+    background: @rich-black-fogra-29;
+    height: 1500px;
 }
 
 ul, li {
     list-style-type: none;
 }
 li {
-    display: inline-block;
+    display: block;
     &:not(:last-child) {
-        margin-right: 3rem;
+        margin-bottom: 3rem;
     }
     text-align: center;
 }
 
 a {
     text-decoration: none;
-    font-size: 1.5rem;
+    font-size: 2rem;
     color: white;
-    border: 2px solid rgb(0, 230, 172);
-    background: rgb(0, 230, 172);
     transition: .5s;
     padding: .5rem;
-    &:hover{
-        background: none;
-    }
+    font-family: @font_link;
 }
 
 header {
-    background: black;
+    background:@ming;
     padding: 2rem 0;
 }
 
@@ -44,4 +51,9 @@ header {
     justify-content: center;
     max-width: 1280px;
     width: 100%;
+    margin: 0 auto;
+}
+
+.active a{
+    background: none;
 }
