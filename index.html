@@ -9,18 +9,35 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
+        <!-- PreLoad -->
+        <link rel="preload" href="./css/reset.min.css" as="style">
+        <link rel="preload" href="./js/main.js" as="script">
+
         <!-- My CSS -->
         <link rel="stylesheet" href="./css/reset.min.css">
         <link rel="stylesheet" href="./css/style.min.css">
-
-        <link rel="preload" href="./css/reset.min.css" as="style">
 
         <title>Metroid - FanSite</title>
     </head>
     <body>
         <header>
             <div class="container">
-                <nav>
+                
+                <button id="burger" class="open-main-nav">
+                    <span class="burger"></span>
+                    <span class="burger-text">Menu</span>
+                </button>
+                <nav class="main-nav" id="main-nav">
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#history">Historia</a></li>
+                        <li><a href="#chronology">Cronologia</a></li>
+                        <li><a href="#easteregg">Easter Egg</a></li>
+                        <li><a href="#Fanarts">Far arts</a></li>
+                    </ul>
+                </nav>
+
+                <nav id="header__menu">
                     <ul>
                         <div id="marker" class="marker"></div>
                         <li><a href="#home">Home</a></li>
