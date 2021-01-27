@@ -111,7 +111,8 @@ header {
   max-width: 1280px;
   width: 100%;
   margin: 0 auto;
+  padding: 0 2%;
 }
-.active a {
-  background: none;
+section > .container {
+  margin: initial;
 }

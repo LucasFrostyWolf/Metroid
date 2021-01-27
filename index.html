@@ -11,15 +11,52 @@
 
         <!-- PreLoad -->
         <link rel="preload" href="./css/reset.min.css" as="style">
+        <link rel="preload" href="./css/style.min.css" as="style">
+        <link rel="preload" href="./css/menu-mobile.min.css" as="style">
+        <link rel="preload" href="./css/home.min.css" as="style">
+        <link rel="preload" href="./css/media-querys.min.css" as="style">
         <link rel="preload" href="./js/main.js" as="script">
 
         <!-- My CSS -->
         <link rel="stylesheet" href="./css/reset.min.css">
         <link rel="stylesheet" href="./css/style.min.css">
+        <link rel="stylesheet" href="./css/menu-mobile.min.css">
+        <link rel="stylesheet" href="./css/home.min.css">
+        <link rel="stylesheet" href="./css/media-querys.min.css">
 
         <title>Metroid - FanSite</title>
     </head>
+
     <body>
+
+        <section id="section__loader">
+            <div class="loader">
+                <div class="dot" style="--i:0"></div>
+                <div class="dot" style="--i:1"></div>
+                <div class="dot" style="--i:2"></div>
+                <div class="dot" style="--i:3"></div>
+                <div class="dot" style="--i:4"></div>
+                <div class="dot" style="--i:5"></div>
+                <div class="dot" style="--i:6"></div>
+                <div class="dot" style="--i:7"></div>
+                <div class="dot" style="--i:8"></div>
+                <div class="dot" style="--i:9"></div>
+            </div>
+            <h2>Loading...</h2>
+            <div class="loader">
+                <div class="dot" style="--i:0"></div>
+                <div class="dot" style="--i:1"></div>
+                <div class="dot" style="--i:2"></div>
+                <div class="dot" style="--i:3"></div>
+                <div class="dot" style="--i:4"></div>
+                <div class="dot" style="--i:5"></div>
+                <div class="dot" style="--i:6"></div>
+                <div class="dot" style="--i:7"></div>
+                <div class="dot" style="--i:8"></div>
+                <div class="dot" style="--i:9"></div>
+            </div>
+        </section>
+
         <header>
             <div class="container">
                 
@@ -30,6 +67,7 @@
                 <nav class="main-nav" id="main-nav">
                     <ul>
                         <li><a href="#home">Home</a></li>
+                        <li><a href="#news">Novidades</a></li>
                         <li><a href="#history">Historia</a></li>
                         <li><a href="#chronology">Cronologia</a></li>
                         <li><a href="#easteregg">Easter Egg</a></li>
@@ -41,6 +79,7 @@
                     <ul>
                         <div id="marker" class="marker"></div>
                         <li><a href="#home">Home</a></li>
+                        <li><a href="#news">Novidades</a></li>
                         <li><a href="#history">Historia</a></li>
                         <li><a href="#chronology">Cronologia</a></li>
                         <li><a href="#easteregg">Easter Egg</a></li>
@@ -50,6 +89,32 @@
             </div>
         </header>
 
+        <main>
+            <section id="home">
+                <div class="overlay"></div>
+                <div class="slider">
+                    <img class="slides" src="./img/home-cover.png" alt="Cover">
+                    <img class="slides" src="./img/home-cover-2.jpg" alt="Cover">
+                    <img class="slides" src="./img/home-cover-3.jpg" alt="Cover">
+                </div>
+                <div class="container">
+                    <div class="section__header">
+                        <h2>Bem-vindo(a) ao site</h2>
+                        <p>Fique por dentro das novidades e história da franquia</p>
+                    </div> <!-- SectionHeader -->
+                </div> <!-- Container -->
+                <div class="bullets">
+                </div>
+            </section> <!-- #Home-->
+        </main>
+
+        <footer>
+            <div class="container">
+                <p>Desenvolvido por Lucas G. Machado</p>
+            </div>
+        </footer>
+
+        <script src="./js/jquery.js"></script>
         <script src="./js/main.js"></script>
     </body>
 </html>
