@@ -9,7 +9,7 @@ $(function() {
         }
         hidePreloader();
         });
-
+});
 
     // Efeito menu fixo no scroll apenas pro desktop
     if(window.screen.width > 768){
@@ -106,4 +106,3 @@ $(function() {
         $('.bullets span').removeClass('active');
         currentBullet.addClass('active');
     })
-});

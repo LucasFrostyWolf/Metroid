@@ -123,6 +123,15 @@ header {
 #header__menu {
   display: none;
 }
+.section__header {
+  text-align: center;
+  font-size: 2rem;
+  color: #ffffff;
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+  width: 100%;
+  padding: 1rem 0;
+}
 footer {
   color: white;
   padding: 2rem 0;

@@ -39,6 +39,7 @@
     margin-bottom: 0;
   }
   section#home {
-    margin: 8rem 0 0 0;
+    margin: 8.9rem 0 0 0;
+    height: 85vh;
   }
 }

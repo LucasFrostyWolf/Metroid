@@ -1,0 +1,13 @@
+section#news {
+  margin: 5rem 0;
+  color: white;
+}
+section#news .container {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+section#news .news__wrapper {
+  padding: 5rem 2%;
+}
