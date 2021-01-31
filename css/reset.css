@@ -3,49 +3,49 @@
   font-style: italic;
   font-weight: 400;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/josefinsans/v16/Qw3JZQNVED7rKGKxtqIqX5EUCGZ2dIn0FyA96fCTtIJhKg.ttf) format('truetype');
+  src: url(https://fonts.gstatic.com/s/josefinsans/v17/Qw3JZQNVED7rKGKxtqIqX5EUCGZ2dIn0FyA96fCTtIJhKg.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Josefin Sans';
   font-style: italic;
   font-weight: 500;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/josefinsans/v16/Qw3JZQNVED7rKGKxtqIqX5EUCGZ2dIn0FyA96fCThoJhKg.ttf) format('truetype');
+  src: url(https://fonts.gstatic.com/s/josefinsans/v17/Qw3JZQNVED7rKGKxtqIqX5EUCGZ2dIn0FyA96fCThoJhKg.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Josefin Sans';
   font-style: italic;
   font-weight: 700;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/josefinsans/v16/Qw3JZQNVED7rKGKxtqIqX5EUCGZ2dIn0FyA96fCTU4VhKg.ttf) format('truetype');
+  src: url(https://fonts.gstatic.com/s/josefinsans/v17/Qw3JZQNVED7rKGKxtqIqX5EUCGZ2dIn0FyA96fCTU4VhKg.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Josefin Sans';
   font-style: normal;
   font-weight: 300;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/josefinsans/v16/Qw3PZQNVED7rKGKxtqIqX5E-AVSJrOCfjY46_GbQXME.ttf) format('truetype');
+  src: url(https://fonts.gstatic.com/s/josefinsans/v17/Qw3PZQNVED7rKGKxtqIqX5E-AVSJrOCfjY46_GbQXME.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Josefin Sans';
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/josefinsans/v16/Qw3PZQNVED7rKGKxtqIqX5E-AVSJrOCfjY46_DjQXME.ttf) format('truetype');
+  src: url(https://fonts.gstatic.com/s/josefinsans/v17/Qw3PZQNVED7rKGKxtqIqX5E-AVSJrOCfjY46_DjQXME.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Josefin Slab';
   font-style: normal;
   font-weight: 500;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/josefinslab/v12/lW-swjwOK3Ps5GSJlNNkMalNpiZe_ldbOR4W72usd3k.ttf) format('truetype');
+  src: url(https://fonts.gstatic.com/s/josefinslab/v13/lW-swjwOK3Ps5GSJlNNkMalNpiZe_ldbOR4W72usd3k.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Josefin Slab';
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/josefinslab/v12/lW-swjwOK3Ps5GSJlNNkMalNpiZe_ldbOR4W776rd3k.ttf) format('truetype');
+  src: url(https://fonts.gstatic.com/s/josefinslab/v13/lW-swjwOK3Ps5GSJlNNkMalNpiZe_ldbOR4W776rd3k.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Teko';
@@ -80,6 +80,17 @@ html,
 body {
   background: #001524;
   height: 100%;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Josefin Sans';
+}
+p {
+  font-family: 'Josefin Slab';
 }
 ul,
 li {

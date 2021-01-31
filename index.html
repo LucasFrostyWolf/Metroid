@@ -14,7 +14,8 @@
         <link rel="preload" href="./css/style.min.css" as="style">
         <link rel="preload" href="./css/menu-mobile.min.css" as="style">
         <link rel="preload" href="./css/home.min.css" as="style">
-        <link rel="preload" href="./css/media-querys.min.css" as="style">
+        <link rel="preload" href="./css/news.min.css" as="style">
+        <link rel="preload" href="./css/history.min.css" as="style">
         <link rel="preload" href="./js/main.js" as="script">
 
         <!-- My CSS -->
@@ -23,7 +24,7 @@
         <link rel="stylesheet" href="./css/menu-mobile.min.css">
         <link rel="stylesheet" href="./css/home.min.css">
         <link rel="stylesheet" href="./css/news.min.css">
-        <link rel="stylesheet" href="./css/media-querys.min.css">
+        <link rel="stylesheet" href="./css/history.min.css">
 
         <title>Metroid - FanSite</title>
     </head>
@@ -56,7 +57,7 @@
                 <div class="dot" style="--i:8"></div>
                 <div class="dot" style="--i:9"></div>
             </div>
-        </section>
+        </section> <!-- #SectionLoader -->
 
         <header>
             <div class="container">
@@ -69,7 +70,7 @@
                 <nav class="main-nav" id="main-nav">
                     <ul>
                         <li><a href="#home">Home</a></li>
-                        <li><a href="#news">Novidades</a></li>
+                        <li><a href="#news">Noticias</a></li>
                         <li><a href="#history">História</a></li>
                         <li><a href="#chronology">Cronologia</a></li>
                         <li><a href="#easteregg">Easter Egg</a></li>
@@ -81,7 +82,7 @@
                     <ul>
                         <div id="marker" class="marker"></div>
                         <li><a href="#home">Home</a></li>
-                        <li><a href="#news">Novidades</a></li>
+                        <li><a href="#news">Noticias</a></li>
                         <li><a href="#history">História</a></li>
                         <li><a href="#chronology">Cronologia</a></li>
                         <li><a href="#easteregg">Easter Egg</a></li>
@@ -114,14 +115,65 @@
             <section id="news">
                 <div class="container">
                     <div class="section__header">
-                        <h2>Novidades</h2>
+                        <h2>Noticias</h2>
                     </div> 
 
                     <div class="news__wrapper">
-                        <h2>Olá</h2>
+                        <div class="news__single">
+                            <div class="news__header">
+                                <h2>Metroid Prime 4 ainda será lançado?</h2>
+                            </div> <!-- NewsHeader -->
+                            <div class="news__info">
+                                <p>Já faz algum tempo que a Nintendo anunciou o desenvolvimento de jogo, e desde de então não tivemos mais nenhuma novidade sobre...</p>
+                                <a href="#">Saiba Mais!</a>
+                            </div> <!-- NewsInfo -->
+                        </div> <!-- NewsSingle -->
+
+                        <div class="news__single">
+                            <div class="news__header">
+                                <h2>O futuro da franquia Metroid</h2>
+                            </div> <!-- NewsHeader -->
+                            <div class="news__info">
+                                <p>Quais são os planos da Nintendo para o futuro da franquia...</p>
+                                <a href="#">Saiba Mais!</a>
+                            </div> <!-- NewsInfo -->
+                        </div> <!-- NewsSingle -->
+
+                        <div class="news__single">
+                            <div class="news__header">
+                                <h2>Conheça a história da Retro Studios</h2>
+                            </div> <!-- NewsHeader -->
+                            <div class="news__info">
+                                <p>Conheça sobre o estúdio responsável pela triologia prime e também pelo novo jogo...</p>
+                                <a href="#">Saiba Mais!</a>
+                            </div> <!-- NewsInfo -->
+                        </div> <!-- NewsSingle -->
                     </div> <!-- NewsWrapper -->
                 </div> <!-- Container -->
             </section> <!-- #News -->
+
+            <section id="history">
+                <div class="container">
+                    <div class="section__header">
+                        <h2>História</h2>
+                    </div> <!-- SectionHeader -->
+
+                    <div class="history__wrapper">
+                        <div class="history__header">
+                            <h2>O começo de tudo!</h2>
+                        </div>
+
+                        <div class="history">
+                            <h5>Origem da Samus </h5>
+                            <p>A origem da Samus Aram é contada nos manga Metroid: volume 1(2003) e Metroid: Volume 2(2004), nesses manga conta sobre o ataque em K-2L, sobre o treinamento dela com os Chozo, o pouco tempo que ela passou na Galactic Federation e outros eventos que levaram ela até o confronto com a Mother Brain em Zero Mission.</p>
+                        </div>
+                        <div class="history">
+                            <h5>Metroid e Metroid: Zero Mission (NES/Game Boy Advance, 1986/2004)</h5>
+                            <p>Samus anda pelas cavernar do planeta Zebes para parar os Space Pirates da exploração da espécies do Metroid para a dominação galática. Ela confronta a form de vida cibernética Mother Brain, bem como seus guardiões, Kraid e Ridley.</p>
+                        </div>
+                    </div>
+                </div> <!-- Container -->
+            </section> <!-- #History -->
         </main>
 
         <footer>

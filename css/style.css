@@ -118,7 +118,7 @@
 header {
   background: none;
   padding: initial;
-  z-index: 4;
+  z-index: 5;
 }
 #header__menu {
   display: none;
@@ -131,10 +131,52 @@ header {
   border-bottom: 2px solid white;
   width: 100%;
   padding: 1rem 0;
+  background: #4d908e;
 }
 footer {
   color: white;
   padding: 2rem 0;
   background: #000000;
   font-size: 1.5rem;
+}
+@media screen and (min-width: 768px) {
+  .open-main-nav,
+  .main-nav {
+    display: none;
+  }
+  #header__menu {
+    display: block;
+  }
+  header {
+    padding: 3rem 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    -webkit-transition: .25s;
+    transition: .25s;
+    background: #15616d;
+  }
+  .sticky {
+    padding: .5rem 0;
+    background: rgba(21, 97, 109, 0.1);
+  }
+  .marker {
+    position: absolute;
+    left: 0;
+    bottom: 50px;
+    -webkit-transition: .5s;
+    transition: .5s;
+    height: 4px;
+    width: 0;
+    background: #ffecd1;
+    border-radius: 4px;
+  }
+  li {
+    display: inline-block;
+  }
+  li:not(:last-child) {
+    margin-right: 2rem;
+    margin-bottom: 0;
+  }
 }

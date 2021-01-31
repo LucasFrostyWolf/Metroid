@@ -1,0 +1,43 @@
+section#history {
+  margin: 5rem 0;
+  color: white;
+}
+section#history .container {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+section#history .history__wrapper {
+  margin-top: 1rem;
+  border: 2px solid;
+  padding: 1rem 2%;
+}
+section#history .history__wrapper .history__header {
+  margin-bottom: .5rem;
+  border-bottom: 2px solid;
+  padding: 1rem 0;
+}
+section#history .history__wrapper .history__header h2 {
+  font-size: 3em;
+  font-weight: 400;
+  font-style: italic;
+}
+section#history .history__wrapper .history {
+  font-size: 1.8rem;
+  font-weight: 300;
+  margin-top: 3rem;
+}
+section#history .history__wrapper .history:not(:last-child) {
+  border-bottom: 2px solid;
+}
+section#history .history__wrapper .history h5 {
+  font-size: 2rem;
+  margin: 1rem 0;
+  border-bottom: 1px solid;
+}
+section#history .history__wrapper .history p {
+  letter-spacing: 2px;
+  line-height: 3rem;
+  padding-bottom: 1rem;
+}

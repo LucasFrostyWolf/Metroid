@@ -1,7 +1,6 @@
 @import 'colors';
 
 // TODO: Iniciar sessão historia
-// TODO: Iniciar sessão novidades
 
 #section__loader {
     position: fixed;
@@ -76,7 +75,7 @@
 header{
     background: none;
     padding: initial;
-    z-index: 4;
+    z-index: 5;
 }
 
 #header__menu {
@@ -91,6 +90,7 @@ header{
     border-bottom: 2px solid white;
     width: 100%;
     padding: 1rem 0;
+    background: @cadet-blue;
 }
 
 footer {
@@ -98,4 +98,50 @@ footer {
     padding: 2rem 0;
     background: #000000;
     font-size: 1.5rem;
+}
+
+
+
+@media screen and (min-width: 768px) {
+    .open-main-nav, .main-nav {
+        display: none;
+    }
+
+    #header__menu {
+        display: block;
+    }
+
+    header {
+        padding: 3rem 0;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        transition: .25s;
+        background: @ming;
+    }
+    
+    .sticky {
+        padding: .5rem 0;
+        background:  rgba(21, 97, 109, .1);
+    }
+
+    .marker {
+        position: absolute;
+        left: 0;
+        bottom: 50px;
+        transition: .5s;
+        height: 4px;
+        width: 0;
+        background: @blanched-almond;
+        border-radius: 4px;
+    }
+    
+    li {
+        display: inline-block;
+        &:not(:last-child) {
+            margin-right: 2rem;
+            margin-bottom: 0;
+        }
+    }
 }
